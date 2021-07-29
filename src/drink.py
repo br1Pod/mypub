@@ -1,4 +1,5 @@
 class Drink:
 
-    def __init__(self):
-        pass
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price

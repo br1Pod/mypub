@@ -6,4 +6,6 @@ from src.customer import Customer
 
 class TestCustomer(unittest.TestCase):
 
-    pass
+    def setUp(self):
+
+        pass
