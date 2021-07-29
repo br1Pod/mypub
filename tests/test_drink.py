@@ -7,5 +7,6 @@ from src.customer import Customer
 class TestDrink(unittest.TestCase):
 
     def setUp(self):
-        
-        pass
+        self.drink1 = Drink("Whiskey", 3.25)
+        self.drink2 = Drink("Large Gin", 4.10)
+        self.drink3 = Drink("Cider", 2.75)
